@@ -5,8 +5,11 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 
-import UserList from "../pages/user-list";
-import UserForm from "../pages/user-form";
+import UserList from "../../pages/user-list";
+import UserForm from "../../pages/user-form";
+import PostDetails from "../../pages/post-details";
+import Contact from "../../pages/contact";
+
 import { Button, Icon } from "react-native-elements";
 
 
@@ -42,6 +45,8 @@ export default function App() {
           component={UserForm}
           options={{ title: "Formulário de Usuários" }}
         />
+        <Stack.Screen name="PostDetails" component={PostDetails} />
+        <Stack.Screen name="Contact" component={Contact} />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -50,7 +55,7 @@ export default function App() {
 
 const screenOptions: any = {
   headerStyle: {
-    backgroundColor: "#433e3f",
+    backgroundColor: "#ffff00",
   },
   headerTintColor: "#fff",
   headerTitleStyle: {

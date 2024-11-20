@@ -1,22 +1,22 @@
 export default [
     {
       id: 1,
-      name: 'Jhuonas Seiti',
-      email: 'jhuonas@gmail.com',
+      name: 'Mariana Rubim',
+      email: 'mariana@gmail.com',
       avatarUrl: 'https://cdn-icons-png.flaticon.com/512/1610/1610724.png',
     },
     {
       id: 2,
-      name: 'Murilo da Silva',
-      email: 'murilo@gmail.com',
+      name: 'Murilo Rubim',
+      email: 'muriloReiDelas@gmail.com',
       avatarUrl: 'https://cdn-icons-png.flaticon.com/512/1610/1610724.png',
     },
    
    
     {
       id: 3,
-      name: 'João Carvalho',
-      email: 'joao@gmail.com',
+      name: 'Pandora Golden',
+      email: 'pandora@gmail.com',
       avatarUrl: 'https://cdn-icons-png.flaticon.com/512/1610/1610724.png',
     },
    ];
